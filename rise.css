@@ -1,67 +1,18 @@
 /* Tokens: As CSS Custom Properties
   ========================================================================== */
 
-:root {
-  /* Font Family */
-  --family-primary: "Inter var", BlinkMacSystemFont, -apple-system, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-
-  /* Font Weights */
-  --weight-normal: 400;
-  --weight-bold: 700;
-
-  /* Typographic Scale - Classical Scale based on Bringhurst's "The Elements of Typographic Style" */
-  --type-scale-01: 0.75rem; /* 12px */
-  --type-scale-02: 0.875rem; /* 14px */
-  --type-scale-03: 1rem; /* 16px */
-  --type-scale-04: 1.125rem; /* 18px */
-  --type-scale-05: 1.3125rem; /* 21px */
-  --type-scale-06: 1.5rem; /* 24px */
-  --type-scale-07: 1.875rem; /* 30px */
-  --type-scale-08: 2.25rem; /* 36px */
-  --type-scale-09: 3rem; /* 48px */
-  --type-scale-10: 3.75rem; /* 60px */
-  --type-scale-11: 4.5rem; /* 72px */
-
-  /* Typographic Measure */
-  --measure: 65ch;
-
-  /* Typographic Style */
-  --heading-weight: var(--weight-bold);
-
-  /* Space */
-  --space-xxs: calc(1rem / 8); /* 2dp (px) */
-  --space-xs: calc(1rem / 4); /* 4dp (px) */
-  --space-s: calc(1rem / 2); /* 8dp (px) */
-  --space-m: 1rem; /* 16dp (px) */
-  --space-l: calc(1rem * 2); /* 32dp (px) */
-  --space-xl: calc(1rem * 4); /* 64dp (px) */
-  --space-xxl: calc(1rem * 8); /* 128dp (px) */
-}
-
 /* Document
   ========================================================================== */
-:root {
-  font-family: var(--family-primary);
-  line-height: 1.5rem;
-  font-weight: var(--weight-normal);
+html {
+  font-size: var(--base-font-size);
 }
 
 body {
-  margin: var(--space-m);
-}
-
-/* Measure
-  ========================================================================== */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  max-width: var(--measure);
+  background: var(--body-bg-color);
+  font-family: var(--body-family);
+  font-weight: var(--body-font-weight);
+  color: var(--body-color);
+  line-height: var(--body-line-height);
 }
 
 /* Headings
@@ -70,37 +21,76 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
+  margin: var(--heading-margin);
+  font-family: var(--heading-family);
   font-weight: var(--heading-weight);
+  line-height: var(--heading-line-height);
 }
 h1 {
-  font-size: var(--type-scale-08);
+  font-size: var(--type-scale-1);
 }
 h2 {
-  font-size: var(--type-scale-07);
+  font-size: var(--type-scale-2);
 }
 h3 {
-  font-size: var(--type-scale-06);
+  font-size: var(--type-scale-3);
 }
 h4 {
-  font-size: var(--type-scale-05);
+  font-size: var(--type-scale-4);
 }
 h5 {
-  font-size: var(--type-scale-04);
+  font-size: var(--type-scale-5);
 }
 h6 {
-  font-size: var(--type-scale-03);
+  font-size: var(--type-scale-6);
 }
 
 /* Paragraphs
   ========================================================================== */
 p {
-  font-size: var(--type-scale-03);
+  font-size: inherit;
+}
+
+/* Blockquotes
+========================================================================== */
+blockquote {
+}
+
+blockquote cite {
+}
+blockquote cite a {
 }
 
 /* Inline Elements
   ========================================================================== */
 a {
-  text-decoration: underline;
+}
+
+small {
+  font-size: var(--type-scale-6);
+}
+
+/* Document Structural Elements
+========================================================================== */
+header {
+}
+
+nav {
+}
+
+/* Main Structural Elements
+========================================================================== */
+main {
+}
+
+main section {
+}
+main section header {
+}
+main section article {
+}
+main section article header {
+}
+main section article footer {
 }

@@ -1,0 +1,24 @@
+{
+  "name": "rise.css",
+  "version": "1.0.0",
+  "description": "A zero-class minimal css stylesheet.",
+  "main": "index.html",
+  "dependencies": {
+    "destyle.css": "^2.0.2",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamespatrickgibson/rise.css.git"
+  },
+  "author": "James Patrick Gibson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamespatrickgibson/rise.css/issues"
+  },
+  "homepage": "https://github.com/jamespatrickgibson/rise.css#readme"
+}

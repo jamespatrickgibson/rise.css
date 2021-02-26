@@ -1,0 +1,76 @@
+:root {
+  /* Space */
+  --space-1: calc(1rem / 8); /* 2pt */
+  --space-2: calc(1rem / 4); /* 4pt */
+  --space-3: calc(1rem / 2); /* 8pt */
+  --space-4: 1rem; /* 16pt */
+  --space-5: calc(1rem * 2); /* 32pt */
+  --space-6: calc(1rem * 4); /* 64pt */
+  --space-7: calc(1rem * 8); /* 128pt */
+
+  /* 4pt Baseline Grid */
+  --baseline: calc(1rem / 4); /* 4pt */
+
+  /* 8pt Layout Grid */
+  --grid: calc(1rem / 2); /* 8pt */
+
+  /* Typography */
+  --family-primary: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+
+  --weight-normal: 400;
+  --weight-bold: 700;
+
+  /* 1.250 – Major Third Scale */
+  --type-scale-1: 3.052rem;
+  --type-scale-2: 2.441rem;
+  --type-scale-3: 1.953rem;
+  --type-scale-4: 1.563rem;
+  --type-scale-5: 1.25rem;
+  --type-scale-6: 0.8rem;
+
+  --measure: 65ch;
+
+  /* Color */
+  --black: #000000;
+  --white: #ffffff;
+
+  --gray-900: #222222;
+  --gray-800: #2b2b2b;
+  --gray-700: #333333;
+  --gray-600: #3c3c3c;
+  --gray-500: #444;
+  --gray-400: #696969;
+  --gray-300: #8f8f8f;
+  --gray-200: #b4b4b4;
+  --gray-100: #dadada;
+
+  --link-900: #6b007f;
+  --link-800: #61009d;
+  --link-700: #4b00b9;
+  --link-600: #2a00d4;
+  --link-500: #0000ee;
+  --link-400: #3366f6;
+  --link-300: #66b7fc;
+  --link-200: #99eeff;
+  --link-100: #ccfffa;
+
+  /* Base */
+  --html-font-size: 100%;
+
+  --body-family: var(--family-primary);
+  --body-font-weight: var(--weight-normal);
+  --body-line-height: 1.75;
+  --body-bg-color: var(--white);
+  --body-color: var(--black);
+
+  --heading-family: inherit;
+  --heading-weight: var(--weight-bold);
+  --heading-margin: 3rem 0 1.38rem;
+  --heading-line-height: 1.3;
+
+  --paragraph-margin-bottom: 1rem;
+
+  /* Structure */
+}
