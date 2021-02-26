@@ -64,13 +64,16 @@
   --body-line-height: 1.75;
   --body-bg-color: var(--white);
   --body-color: var(--black);
+  --body-margin: 0;
 
   --heading-family: inherit;
-  --heading-weight: var(--weight-bold);
+  --heading-weight: var(--weight-normal);
   --heading-margin: 3rem 0 1.38rem;
   --heading-line-height: 1.3;
 
   --paragraph-margin-bottom: 1rem;
 
-  /* Structure */
+  /* Inline Elements */
+  --strong-font-weight: var(--weight-bold);
+  --small-font-size: var(--type-scale-6);
 }
